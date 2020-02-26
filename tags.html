@@ -5,10 +5,10 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <div class="">
-      <a href="index.html">Home</a>
-      <a href="tags.html">HTML Tags</a>
-      <a href="moby_dick.html">Moby Dick</a>
+    <div class="" style="text-align: right;">
+      <a href="index.html" style="color: blue; text-decoration: none;">Home</a>
+      <a href="tags.html" style="color: blue; text-decoration: none; margin: 0 0 0 10px;">HTML Tags</a>
+      <a href="moby_dick.html" style="color: blue; text-decoration: none; margin: 0 0 0 10px;">Moby Dick</a>
     </div>
     <h1>Important HTML tags</h1>
     <a href="https://www.flickr.com/photos/jdhancock/3814523970" target="_blank" rel="noopener"><img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">Tagged Storm Trooper licensed under Creative Commons
@@ -17,6 +17,48 @@
     </p>
     <p>The tables below don't include all HTML tags, but they do list many of the most important ones.
     </p>
+    <header>
+      <h2>Document Tags</h2>
+    </header>
+    <div class="">
+      <table>
+        <tr>
+          <span>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Purpose</th>
+          </span>
+        </tr>
+        <tr>
+          <td style="padding: 10px;"><code>html</code></td>
+          <td style="padding: 10px;">html</td>
+          <td style="padding: 10px;">define document as HTML document</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px;"><code>
+          head</code></td>
+          <td style="padding: 10px;">head</td>
+          <td style="padding: 10px;">define document Head section</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px;"><code>body</code></td>
+          <td style="padding: 10px;">body</td>
+          <td style="padding: 10px;">section of HTML document which is displayed in browsers</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px;"><code>title</code></td>
+          <td style="padding: 10px;">title</td>
+          <td style="padding: 10px;">purpose of Title tag</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px;"><code>meta</code></td>
+          <td style="padding: 10px;">meta</td>
+          <td style="padding: 10px;">purpose of Meta tag</td>
+        </tr>
+      </table>
+
+    </div>
+
     <header>
       <h2>Block Elements</h2>
     </header>
@@ -30,14 +72,29 @@
           </span>
         </tr>
         <tr>
-          <td><code>h1</code>&ndash;<code>h6</code></td>
-          <td>headings</td>
-          <td>include a heading (levels 1&ndash;6)</td>
+          <td style="padding: 10px;"><code>header</code></td>
+          <td style="padding: 10px;">header</td>
+          <td style="padding: 10px;">purpose of Header tag</td>
         </tr>
         <tr>
-          <td><code>p</code></td>
-          <td>paragraph</td>
-          <td>include a paragraph of text</td>
+          <td style="padding: 10px;"><code>div</code></td>
+          <td style="padding: 10px;">div</td>
+          <td style="padding: 10px;">purpose of Div tag</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px;"><code>h1</code>&ndash;<code>h6</code></td>
+          <td style="padding: 10px;">headings</td>
+          <td style="padding: 10px;">include a heading (levels 1&ndash;6)</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px;"><code>p</code></td>
+          <td style="padding: 10px;">paragraph</td>
+          <td style="padding: 10px;">include a paragraph of text</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px;"><code>blockquote</code></td>
+          <td style="padding: 10px;">blockquote</td>
+          <td style="padding: 10px;">purpose of Blockquote tag</td>
         </tr>
         <tr>
           <td><code>table</code></td>
@@ -91,6 +148,13 @@
           </span>
         </tr>
         <tr>
+          <td><code>span</code></td>
+          <td>span</td>
+          <td>purpose of Span tag</td>
+          <td><code>&lt;span&gt;this text is "Spanned"&lt;/span&gt;</code></td>
+          <td><span>this text is "Spanned"</span></td>
+        </tr>
+        <tr>
           <td><code>em</code></td>
           <td>emphasized</td>
           <td>make emphasized text</td>
@@ -125,6 +189,16 @@
             </code>
           </td>
           <td><img src="https://bit.ly/1MZAFuQ" alt="Michael  Hartl"></td>
+        </tr>
+        <tr>
+          <td><code>code</code></td>
+          <td>code</td>
+          <td>format as source code</td>
+          <td>
+            <code>&lt;code&gt;table&lt;/code&gt;
+            </code>
+          </td>
+          <td><code style="background: #eeeeee">table</code></td>
         </tr>
       </table>
     </div>
